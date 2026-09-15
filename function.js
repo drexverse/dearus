@@ -151,11 +151,13 @@ const promiseStatus = document.querySelector('#promiseStatus');
 const savedPromiseKey = 'forYouAlwaysPromises';
 
 const allowedPromiseNames = [
-	'shane&diyana',
-	'shaneanddiyana',
-	'shane and diyana',
-	'diyana and shane'
-];
+		'shane&diyana',
+		'shaneanddiyana',
+		'shane and diyana',
+		'diyana and shane',
+		'diyanaandshane',
+		'diyana&shane'
+	];
 
 if (promiseForm && promiseText && promiseAnswer && promiseList && promiseCount && promiseStatus) {
 	const getSavedPromises = () => {
