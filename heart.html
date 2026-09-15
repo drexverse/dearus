@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#f8eee9">
+	<title>My Lil Angel | Dear Us</title>
+	<link rel="icon" type="image/png" href="img1.png">
+	<link rel="apple-touch-icon" href="img1.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main class="page-shell">
+		<nav class="topbar" aria-label="Main navigation">
+			<a class="wordmark" href="index.html#top" aria-label="Dear Us home">
+				<span class="brand-icon-wrap"><img class="brand-icon" src="img1.png" alt="The SD Diaries couple emblem"></span>
+				<span class="brand-copy"><strong>Dear Us</strong><small>A little corner of the world that belongs to us.</small></span>
+			</a>
+			<div class="nav-links">
+				<a href="index.html#top">home</a>
+				<a href="heart.html" aria-current="page">my lil angel</a>
+				<a href="gallery.html">gallery</a>
+				<a href="about.html">about us</a>
+			</div>
+			<div class="topbar-note"><span class="status-dot"></span> written with love</div>
+		</nav>
+
+		<section class="letter-page standalone-letter" aria-label="My lil angel">
+			<div class="letter-heading">
+				<p class="eyebrow">02 / my lil angel</p>
+				<h1>A quiet little<br><em>truth</em> for you.</h1>
+			</div>
+			<div class="letter-content">
+				<p class="letter-intro">Take your time here. This one is meant to be read slowly.</p>
+				<button class="reveal-button" id="revealButton" type="button" aria-expanded="false" aria-controls="loveNote">
+					<span class="button-heart">♡</span>
+					<span>Open my heart</span>
+					<span class="button-arrow">↗</span>
+				</button>
+				<div class="love-note" id="loveNote" hidden>
+					<p>My Little Angel, Diyana,</p>
+					<p>I love you not just for who you are, but for the quiet, steady life we are building together. No dramatic promises or grand declarations—just a deep, gentle gratitude that, out of everyone in this world, I get to walk through life with you.</p>
+					<p>Thank you for being my favorite place to rest and my favorite person to share the little things with. Still choosing you, every single day. 🤍</p>
+					<span>— always yours</span>
+				</div>
+			</div>
+		</section>
+
+		<section class="days-special" aria-labelledby="daysSpecialTitle">
+			<div class="days-special-heading">
+				<p class="eyebrow">a little milestone</p>
+				<h2 id="daysSpecialTitle">Days We Made <em>Special</em></h2>
+			</div>
+			<div class="days-special-card">
+				<span class="days-special-mark" aria-hidden="true">♡</span>
+				<p class="days-special-label">together since</p>
+				<time class="days-special-date" datetime="2026-02-15">February 15, 2026</time>
+				<p class="days-special-counter" id="daysCounter" aria-live="polite">0 Months 0 Days</p>
+				<p class="days-special-subtitle">and counting, one little moment at a time. ♡</p>
+			</div>
+		</section>
+
+		<section class="for-you-section" aria-labelledby="forYouTitle">
+			<div class="for-you-copy">
+				<p class="eyebrow">a little song</p>
+				<h2 id="forYouTitle">For <em>you</em></h2>
+			</div>
+			<div class="for-you-player-wrap">
+				<div class="for-you-player">
+					<video class="for-you-video" controls autoplay playsinline preload="auto">
+						<source src="vid.mp4" type="video/mp4">
+						Your browser does not support the video element.
+					</video>
+				</div>
+			</div>
+		</section>
+
+		<section class="open-when-section" aria-labelledby="openWhenTitle">
+			<div class="open-when-heading">
+				<h2 id="openWhenTitle">OPEN WHEN...</h2>
+				<p>Words for the moments when you need them most.</p>
+			</div>
+			<div class="open-when-grid">
+				<article class="open-when-card">
+					<button class="open-when-trigger" type="button" aria-expanded="false" aria-controls="missMeLetter">
+						<span class="envelope-mark" aria-hidden="true"></span>
+						<span class="envelope-seal" aria-hidden="true"><img src="seal.png" alt=""></span>
+						<span class="open-when-title"><span>OPEN WHEN</span><em>you miss me</em></span>
+						<span class="open-when-action">open</span>
+					</button>
+					<div class="open-when-letter" id="missMeLetter" hidden>
+						<div class="open-when-letter-content">
+							<p>If you're reading this because you miss me, I hope you know that you're probably somewhere in my thoughts too.</p>
+							<p>Even when we're busy, far apart, or caught up in our own little worlds, some people never really feel far away. Take a moment and remember the conversations, the laughter, and all those small moments that somehow became important to us.</p>
+							<p>Until we see each other again, keep this simple reminder with you:</p>
+							<blockquote>Distance can change where we are, but it doesn't erase what we've shared.</blockquote>
+						</div>
+						<button class="open-when-close" type="button">Close</button>
+					</div>
+				</article>
+
+				<article class="open-when-card">
+					<button class="open-when-trigger" type="button" aria-expanded="false" aria-controls="needSmileLetter">
+						<span class="envelope-mark" aria-hidden="true"></span>
+						<span class="envelope-seal" aria-hidden="true"><img src="seal.png" alt=""></span>
+						<span class="open-when-title"><span>OPEN WHEN</span><em>you need a smile</em></span>
+						<span class="open-when-action">open</span>
+					</button>
+					<div class="open-when-letter" id="needSmileLetter" hidden>
+						<div class="open-when-letter-content">
+							<p>Hey, Lil Angel.</p>
+							<p>This is your small reminder to pause and smile for a moment.</p>
+							<p>Think about one of those completely random conversations that somehow became funny, or one of those little moments that probably didn't seem important at the time but still managed to stay with us.</p>
+							<p>Life doesn't always need a big reason to feel a little lighter.</p>
+							<p>So, if this message has reached you at the right moment, I hope it gives you at least one small smile.</p>
+							<p>And if it doesn't, just imagine me somewhere, trying very seriously to find a way to make you laugh.</p>
+						</div>
+						<button class="open-when-close" type="button">Close</button>
+					</div>
+				</article>
+
+				<article class="open-when-card">
+					<button class="open-when-trigger" type="button" aria-expanded="false" aria-controls="badDayLetter">
+						<span class="envelope-mark" aria-hidden="true"></span>
+						<span class="envelope-seal" aria-hidden="true"><img src="seal.png" alt=""></span>
+						<span class="open-when-title"><span>OPEN WHEN</span><em>you're having a bad day</em></span>
+						<span class="open-when-action">open</span>
+					</button>
+					<div class="open-when-letter" id="badDayLetter" hidden>
+						<div class="open-when-letter-content">
+							<p>Hey, Lil Angel.</p>
+							<p>Take a breath.</p>
+							<p>You don't have to figure everything out today. Some days feel heavier than others, and that's okay.</p>
+							<p>Be a little gentle with yourself. Take things slowly if you need to. Rest if you need to. One difficult day does not define you, and one moment does not decide what comes next.</p>
+							<p>Tomorrow is still waiting for you.</p>
+							<p>And whenever life feels a little overwhelming, remember that you don't have to carry every thought alone.</p>
+							<p>Somewhere, someone is quietly hoping for your better days and cheering for you through the difficult ones.</p>
+						</div>
+						<button class="open-when-close" type="button">Close</button>
+					</div>
+				</article>
+
+				<article class="open-when-card">
+					<button class="open-when-trigger" type="button" aria-expanded="false" aria-controls="rememberUsLetter">
+						<span class="envelope-mark" aria-hidden="true"></span>
+						<span class="envelope-seal" aria-hidden="true"><img src="seal.png" alt=""></span>
+						<span class="open-when-title"><span>OPEN WHEN</span><em>you want to remember us</em></span>
+						<span class="open-when-action">open</span>
+					</button>
+					<div class="open-when-letter" id="rememberUsLetter" hidden>
+						<div class="open-when-letter-content">
+							<p>Do you remember how something as simple as a &ldquo;Hi&rdquo; could become the beginning of so many conversations?</p>
+							<p>Neither of us knew where those little messages would lead. Somewhere along the way, ordinary moments started becoming special.</p>
+							<p>The random conversations. The laughter. The misunderstandings. The long talks. The unexpected moments.</p>
+							<p>Little by little, they became part of our story.</p>
+							<p>And maybe that's what makes it special.</p>
+							<p>It wasn't just one big moment that created everything. It was all the smaller moments collected together.</p>
+							<p>This isn't only a place to look back.</p>
+							<p>It's a reminder that our story is still being written.</p>
+							<p>There are still ordinary days waiting to become memories, conversations we haven't had yet, and moments we don't even know are coming.</p>
+							<p>So this is for everything we've shared, everything we're sharing now, and all the little moments still waiting for us.</p>
+						</div>
+						<button class="open-when-close" type="button">Close</button>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer-brand"><span class="footer-heart">♥</span><span>Dear Us</span></div>
+			<p>forever is a long time — but I wouldn't mind it with you.</p>
+			<div class="social-links" aria-label="Social media links">
+				<a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Visit us on Facebook"><img src="fb.png" alt=""></a>
+				<a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Visit us on Instagram"><img src="ig.png" alt=""></a>
+				<a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="Visit us on YouTube"><img src="yt.png" alt=""></a>
+			</div>
+		</footer>
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+	<script src="function.js"></script>
+</body>
+</html>
